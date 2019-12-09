@@ -2,8 +2,12 @@
 
 ## Project
 Features :
+- Events
 - Promoting arts 
-- News portal 
+- News portal ??
+
+### Event Site
+Event Booking
 
 ### Arts Promo Site
 All countries complain of a decline in activity in the craft industry. The industrial revolution, mass production and competition from emerging countries have literally destroyed much of the craft industry. Nowadays, the craft industry is rather considered as a sector of the past where we see people trying to survive from day to day. But it is a false image conveyed by the media and the consumer society. Many studies show a huge interest in craft products. These are more authentic and they have a flawless finish unlike products made in the chain. Unfortunately, artisans are rarely present on the web because they believe that a website creation dedicated to the craft.
