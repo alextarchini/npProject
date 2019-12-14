@@ -54,6 +54,7 @@ const transformEvent = event => {
   return {
     ...event._doc,
     _id: event.id,
+    /* place: place.bind(this, event.place), */
     date: dateToString(event._doc.date),
     creator: user.bind(this, event.creator)
   };
