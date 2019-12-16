@@ -1,0 +1,187 @@
+#html {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background: #f4f4f4;
+  margin: 0;
+  color: black;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.showcase::after {
+  margin-top: 40px;
+  content: "";
+  height: 50vh;
+  width: 100%;
+  background-image: url(../img/img1.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: block;
+  filter: blur(10px);
+  -webkit-filter: blur(10px);
+  transition: all 100ms;
+}
+
+.showcase:hover::after {
+  filter: blur(0px);
+  -webkit-filter: blur(0px);
+}
+
+.showcase:hover .content {
+  filter: blur(2px);
+  -webkit-filter: blur(2px);
+}
+
+.content {
+  position: absolute;
+  z-index: 2;
+  top: 10%;
+  left: 50%;
+  margin-left: -145px;
+  width: 300px;
+  height: 350px;
+  text-align: center;
+  transition: all 1000ms;
+}
+
+.content .logo {
+  height: 180px;
+  width: 180px;
+}
+
+.content .title {
+  font-size: 3rem;
+  margin-top: 1rem;
+}
+
+.title {
+  color: #259191;
+}
+
+.content .text {
+  line-height: 1.7;
+  margin-top: 1rem;
+}
+
+.container {
+  max-width: 960px;
+  margin: auto;
+  overflow: hidden;
+  padding: 4rem 1rem;
+}
+
+.grid-3 {
+  display: grid;
+  grid-gap: 20px;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.grid-2 {
+  display: grid;
+  grid-gap: 20px;
+  grid-template-columns: repeat(2, 1fr);
+}
+/* .pic {
+  width: 5px;
+  height: 50px;
+} */
+
+.center {
+  text-align: center;
+  margin: auto;
+}
+.bg-green {
+  color: #f4f4f4;
+  background: #259191;
+}
+.bg-light {
+  background: #f4f4f4;
+  color: #333;
+}
+
+.bg-dark {
+  background: #333;
+  color: #fff;
+}
+
+/* Action buttons */
+#action-btn {
+  background: #333;
+  color: white;
+  border-radius: 5px;
+  border: 1px solid #333;
+  padding: 4px 16px;
+  margin-top: 2rem;
+}
+#action-btn a {
+  color: white;
+  text-decoration: none;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 18px;
+}
+
+#action-btn a:hover,
+#action-btn a.active,
+#action-btn button:active {
+  background: #000;
+  color: #fff;
+  border-radius: 5px;
+  border: 1px solid #333;
+  text-decoration: none;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 18px;
+}
+
+/* RESPONSIVE - small screens */
+@media (max-width: 560px) {
+  .showcase::after {
+    margin-top: 20vh;
+    height: 50vh;
+  }
+  .content {
+    top: 5%;
+    margin-top: 5px;
+  }
+  .content .logo {
+    height: 140px;
+    width: 140px;
+  }
+  .content .text {
+    display: none;
+  }
+  .grid3-3,
+  .grid-2 {
+    grid-template-columns: 1fr;
+  }
+  .services div {
+    border-bottom: #333 dashed 1px;
+    padding: 1.2rem 1rem;
+  }
+  /* additional */
+  .grid-3.center {
+    /* direction column! */
+    grid-template-columns: 1fr;
+  }
+  .content {
+    position: absolute;
+    z-index: 2;
+    top: 10%;
+    left: 50%;
+    margin-top: 5rem;
+    margin-left: -145px;
+    width: 300px;
+    height: 350px;
+    text-align: center;
+    transition: all 1000ms;
+  }
+}
+
+/* landscape */
+@media (max-height: 500px) {
+  .content .title,
+  .content .text {
+    display: none;
+  }
+}
