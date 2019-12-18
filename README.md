@@ -1,5 +1,4 @@
 # AlexStyle: Artisanal Online Shop
-
 - Mockup of the site: ["Site MockUp"](https://www.figma.com/file/GJgoTpWRY6JlTgsFexo45S/Figma-Basics?node-id=0%3A286)
 - **Remplir le formulaire  **
 - Graphic chart:
@@ -8,8 +7,21 @@
  - navbar: bootstrap grayish black: Bootstrap class="bg-inverse"
 - Data Schemas (dynamic): 
 - users:
-- sessions: 
+  email: { type: String, required: true },
+  password: { type: String, required: true },
+- sessions (Passport): 
+ _id, expires, session {cookie}
 - products: 
+  imagePath: { type: String, required: true },
+  title: { type: String, required: true },
+  description: { type: String, required: true },
+  price: { type: Number, required: true }
+- orders: 
+  user: { type: Schema.Types.ObjectId, ref: "User" },
+  cart: { type: Object, required: true },
+  address: { type: String, required: true },
+  name: { type: String, required: true },
+  paymentId: { type: String, required: true }
 
 ## Features
 - Sessions system: registration(passport), login, log out
