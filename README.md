@@ -6,12 +6,12 @@
 - UX: Talking chatbot (voice recognition) ► /play secret  💬 
 - online payment with Stripe
 ## 👉Styling:
-Mockup of the site: ["Site MockUp"](https://www.figma.com/file/GJgoTpWRY6JlTgsFexo45S/Figma-Basics?node-id=0%3A286)
-- Graphic chart:
+Graphic chart:
  - color chart:  #bootstrap green success(#5cb85c), bootstrap blue primary action (#0275d8), black-grayish(#333), white(#fff);
  ![Graphic Chart](https://github.com/alextarchini/npProject/colorChart.png)
 - typography: Sans
 - navbar: bootstrap grayish black: Bootstrap class="bg-inverse"
+Mockup of the site: ["Site MockUp"](https://www.figma.com/file/GJgoTpWRY6JlTgsFexo45S/Figma-Basics?node-id=0%3A286)
 ## 🚩 Techno used
 **Front :** Bootstrap, Express Generator (hbs - handlebars)
 **Back :** NodeJs, MongoDB, Stripe (payment API).
