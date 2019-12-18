@@ -6,7 +6,11 @@
 - online payment with Stripe
 ![Test Image 4](https://github.com/tograh/testrepository/3DTest.png)
 ## Techno used
-NodeJs, Express-generator (hbs), Stripe(payment API), Bootstrap, MongoDB
+- NodeJs
+- MongoDB
+- Express-generator (hbs - handlebars),
+- Stripe(payment API)
+- Bootstrap
 ## Installed Dependencies
     "bcrypt-nodejs": "0.0.3",
     "body-parser": "^1.19.0",
