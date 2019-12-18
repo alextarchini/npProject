@@ -12,3 +12,4 @@ npm install --save connect-flash
 npm install --save passport-local
 npm install express-validator –save
 npm install --save connect-mongo
+## To start: simply type "npm start"
