@@ -1,8 +1,7 @@
 # Artisanal Online Shop
-## Techno used: 
-### NodeJs, Express-generator (hbs)
-## Installed Dependencies:
-### 
+## Techno used
+NodeJs, Express-generator (hbs), Stripe(payment API)
+## Installed Dependencies
 npm install csurf –-save
 npm install --save express-session
 npm install --save passport
