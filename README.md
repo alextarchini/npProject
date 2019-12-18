@@ -5,10 +5,11 @@
 - USer interactions: e-shop, interactive shipping cart (linked with session)
 - UX: Talking chatbot (voice recognition) ► /play secret  💬 
 - online payment with Stripe
+![Mock-Up](https://github.com/alextarchini/npProject/blob/master/mockUp.png)
 ## 👉Styling:
 Graphic chart:
  - color chart:  #bootstrap green success(#5cb85c), bootstrap blue primary action (#0275d8), black-grayish(#333), white(#fff);
- ![Graphic Chart](https://github.com/alextarchini/npProject/colorChart.png)
+ ![Graphic Chart](https://github.com/alextarchini/npProject/blob/master/colorChart.png)
 - typography: Sans
 - navbar: bootstrap grayish black: Bootstrap class="bg-inverse"
 Mockup of the site: ["Site MockUp"](https://www.figma.com/file/GJgoTpWRY6JlTgsFexo45S/Figma-Basics?node-id=0%3A286)
