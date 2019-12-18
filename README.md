@@ -13,8 +13,8 @@ Graphic chart:
 - navbar: bootstrap grayish black: Bootstrap class="bg-inverse"
 Mockup of the site: ["Site MockUp"](https://www.figma.com/file/GJgoTpWRY6JlTgsFexo45S/Figma-Basics?node-id=0%3A286)
 ## 🚩 Techno used
-**Front :** Bootstrap, Express Generator (hbs - handlebars)
-**Back :** NodeJs, MongoDB, Stripe (payment API).
+- **Front :** Bootstrap, Express Generator (hbs - handlebars)
+ - **Back :** NodeJs, MongoDB, Stripe (payment API).
 ## 💻 Data Schemas (dynamic): 
 - users:
   email: { type: String, required: true },
