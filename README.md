@@ -34,4 +34,4 @@
     "serve-favicon": "^2.5.0",
     "stripe": "^7.14.0"
 
-## To start: simply run "npm start". Emjoy ;-)
+## To start: simply run "npm start". Enjoy ;-)
