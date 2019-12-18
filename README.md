@@ -1,39 +1,25 @@
 # AlexStyle: Artisanal Online Shop
-- **Créer un repo public nommé "npProject"**
-- **Remplir le formulaire  ["Choix techno & projet"](https://forms.gle/CGVyBaTUZ36XUuEV7)**
-- **Créer un repo public nommé "npProject"**
-- **Remplir le formulaire  ["Choix techno & projet"](https://forms.gle/CGVyBaTUZ36XUuEV7)**
-- Définir son projet
-- Maquette(s) du site
-- Charte graphique (ne pas pousser l'exercice trop loin mais définissez les basiques : couleurs / typo / différents éléments récurrents (navBar, aside, footer...))
-- Data details (définir les éléments qui seront chargés de votre base de données (dynamique) et ceux qui seront fixes sur votre site (HTML purement statique)
-- Schéma de base de données 
-- Tout ce qui vous sera nécessaire pour commencer à développer votre projet sereinement
-**Tous ces éléments devront se trouver au plus vite dans le Readme du projet**
 
-### Technos
-**Back :** NodeJs ou PHP POO
-
-**Front :** Tout est permis
-
-### A retrouver dans votre projet
-- Un système de sessions : inscription, connexion / déconnexion / mot de passe perdu / différents privilèges
-- Interactions utilisateurs cohérentes avec le thème de site choisi (ex: commentaires, forum, chat, inscription et vente de tickets pour l'événement avec confirmation par mail, newsletter, cartes interactives, e-shop, chatbot.....)
-- L'utilisation d'**au moins** une API
-
+- Mockup of the site: 
+- **Remplir le formulaire  ["Choix techno & projet"](https://www.figma.com/file/GJgoTpWRY6JlTgsFexo45S/Figma-Basics?node-id=0%3A286)**
+- Graphic chart:
+ - color chart:  #bootstrap green success(#5cb85c), bootstrap blue primary action (#0275d8), black-grayish(#333), white(#fff);
+ - typography: Sans
+ - navbar: bootstrap (grayish black) bg-inverse
+- Data Schemas (dynamic): 
+- users:
+- sessions: 
+- products: 
 
 ## Features
-- secure user login (passport)
-- shopping cart (linked with session)
-- talking chatbot (voice recognition ;-)
+- Sessions system: registration(passport), login, log out
+- USer interactions: e-shop, interactive shipping cart (linked with session)
+- UX: Talking chatbot (voice recognition ;-) ) ► /play secret► 🚩 😄  ⭐️  👍  👉 💬 💪 
 - online payment with Stripe
 ![Test Image 4](https://github.com/tograh/testrepository/3DTest.png)
 ## Techno used
-- NodeJs
-- MongoDB
-- Express-generator (hbs - handlebars),
-- Stripe(payment API)
-- Bootstrap
+**Front :** Bootstrap, Express Generator (hbs - handlebars)
+**Back :** NodeJs, MongoDB, Stripe (payment API).
 ## Installed Dependencies
     "bcrypt-nodejs": "0.0.3",
     "body-parser": "^1.19.0",
