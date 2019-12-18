@@ -1,6 +1,7 @@
-# Artisanal Online Shop
+# AlexStyle: Artisanal Online Shop
 ## Features
 user login, shopping cart (linked with session), talking chatbot (voice recognition ;-), online payment with Stripe
+![Test Image 4](https://github.com/tograh/testrepository/3DTest.png)
 ## Techno used
 NodeJs, Express-generator (hbs), Stripe(payment API), Bootstrap, MongoDB
 ## Installed Dependencies
