@@ -1,5 +1,5 @@
 # ⭐️AlexArt⭐️: Artisanal E-Shop
-- **Artisanal E-shop  **
+**Artisanal E-shop  **
 Mockup of the site: ["Site MockUp"](https://www.figma.com/file/GJgoTpWRY6JlTgsFexo45S/Figma-Basics?node-id=0%3A286)
 - Graphic chart:
  - color chart:  #bootstrap green success(#5cb85c), bootstrap blue primary action (#0275d8), black-grayish(#333), white(#fff);
