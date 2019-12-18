@@ -1,11 +1,11 @@
 # AlexArt: Artisanal E-Shop
 
 ## ✅ Features
-![Mock-Up](https://github.com/alextarchini/npProject/blob/master/mockUp.png)
 - Sessions system: registration(passport), login, log out
 - USer interactions: e-shop, interactive shipping cart (linked with session)
 - UX: Talking chatbot (voice recognition) ► /play secret  💬 
 - online payment with Stripe
+![Mock-Up](https://github.com/alextarchini/npProject/blob/master/mockUp.png)
 ## 👉Styling:
 Graphic chart:
  - color chart:  #bootstrap green success(#5cb85c), bootstrap blue primary action (#0275d8), black-grayish(#333), white(#fff);
