@@ -1,13 +1,21 @@
 # ⭐️AlexArt⭐️: Artisanal E-Shop
-**Artisanal E-shop  **
+
+## Features
+- Sessions system: registration(passport), login, log out
+- USer interactions: e-shop, interactive shipping cart (linked with session)
+- UX: Talking chatbot (voice recognition ;-) ) ► /play secret►  💬 
+- online payment with Stripe
+##Styling:
 Mockup of the site: ["Site MockUp"](https://www.figma.com/file/GJgoTpWRY6JlTgsFexo45S/Figma-Basics?node-id=0%3A286)
 - Graphic chart:
  - color chart:  #bootstrap green success(#5cb85c), bootstrap blue primary action (#0275d8), black-grayish(#333), white(#fff);
  ![Graphic Chart](https://github.com/alextarchini/npProject/colorChart.png)
- 
- - typography: Sans
- - navbar: bootstrap grayish black: Bootstrap class="bg-inverse"
-- Data Schemas (dynamic): 
+- typography: Sans
+- navbar: bootstrap grayish black: Bootstrap class="bg-inverse"
+## Techno used
+**Front :** Bootstrap, Express Generator (hbs - handlebars)
+**Back :** NodeJs, MongoDB, Stripe (payment API).
+## Data Schemas (dynamic): 
 - users:
   email: { type: String, required: true },
   password: { type: String, required: true },
@@ -24,16 +32,6 @@ Mockup of the site: ["Site MockUp"](https://www.figma.com/file/GJgoTpWRY6JlTgsFe
   address: { type: String, required: true },
   name: { type: String, required: true },
   paymentId: { type: String, required: true }
-
-## Features
-- Sessions system: registration(passport), login, log out
-- USer interactions: e-shop, interactive shipping cart (linked with session)
-- UX: Talking chatbot (voice recognition ;-) ) ► /play secret►  💬 
-- online payment with Stripe
-![Test Image 4](https://github.com/tograh/testrepository/3DTest.png)
-## Techno used
-**Front :** Bootstrap, Express Generator (hbs - handlebars)
-**Back :** NodeJs, MongoDB, Stripe (payment API).
 ## Installed Dependencies: 🚩
     "bcrypt-nodejs": "0.0.3",
     "body-parser": "^1.19.0",
