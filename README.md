@@ -1,4 +1,4 @@
-# ⭐️AlexArt: Artisanal E-Shop
+# AlexArt: Artisanal E-Shop
 
 ## ✅ Features
 - Sessions system: registration(passport), login, log out
@@ -56,4 +56,4 @@ Mockup of the site: ["Site MockUp"](https://www.figma.com/file/GJgoTpWRY6JlTgsFe
     "stripe": "^7.14.0"
 
 ## 👍 To start: 
-simply run "npm start". Enjoy! ☺️ 
+simply run "npm start". Enjoy!
