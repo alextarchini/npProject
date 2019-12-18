@@ -1,5 +1,4 @@
-# npProject
-#Artisanal Online Shop
+# Artisanal Online Shop
 ## Techno used: 
 ### NodeJs, Express-generator (hbs)
 ## Installed Dependencies:
