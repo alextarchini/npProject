@@ -11,16 +11,11 @@ var passport = require("passport");
 var flash = require("connect-flash");
 var validator = require("express-validator");
 var MongoStore = require("connect-mongo")(session);
+var dotenv = require("dotenv").config(); //env vars for DB
 
 var app = express();
 
 /* mongoose.connect("mongodb://localhost:27017/shopping"); */
-/* mongoose.connect(
-  "mongodb+srv://alex:<Jesus1986>@cluster0-avhlk.mongodb.net/shopping-cart?retryWrites=true&w=majority"
-); */
-/* mongoose.connect(
-  `mongodb+srv://${process.env.MONGO_USER}:${process.env.MONGO_PASSWORD}@cluster0-avhlk.mongodb.net/${process.env.MONGO_DB}?retryWrites=true&w=majority`
-); */
 
 /* mongoose
   .connect(
@@ -34,8 +29,9 @@ var app = express();
   }); */
 
 /* DB Connect */
+console.log(process.env.MONGO_USER);
 mongoose.connect(
-  "mongodb+srv://alex:123@cluster0-avhlk.mongodb.net/shopping?retryWrites=true&w=majority",
+  `mongodb+srv://${process.env.MONGO_USER}:${process.env.MONGO_PASSWORD}@cluster0-avhlk.mongodb.net/${process.env.MONGO_DB}?retryWrites=true&w=majority`,
   { useNewUrlParser: true }
 );
 
