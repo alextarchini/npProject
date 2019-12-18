@@ -1,10 +1,11 @@
 var Product = require("../models/product");
 
 var mongoose = require("mongoose");
+var dotenv = require("dotenv").config(); //env vars for DB
 
 /* DB Connect */
 mongoose.connect(
-  "mongodb+srv://alex:123@cluster0-avhlk.mongodb.net/shopping?retryWrites=true&w=majority",
+  `mongodb+srv://${process.env.MONGO_USER}:${process.env.MONGO_PASSWORD}@cluster0-avhlk.mongodb.net/${process.env.MONGO_DB}?retryWrites=true&w=majority`,
   { useNewUrlParser: true }
 );
 
