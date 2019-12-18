@@ -1,7 +1,7 @@
 # AlexStyle: Artisanal Online Shop
 
-- Mockup of the site: 
-- **Remplir le formulaire  ["Choix techno & projet"](https://www.figma.com/file/GJgoTpWRY6JlTgsFexo45S/Figma-Basics?node-id=0%3A286)**
+- Mockup of the site: ["Site MockUp"](https://www.figma.com/file/GJgoTpWRY6JlTgsFexo45S/Figma-Basics?node-id=0%3A286)
+- **Remplir le formulaire  **
 - Graphic chart:
  - color chart:  #bootstrap green success(#5cb85c), bootstrap blue primary action (#0275d8), black-grayish(#333), white(#fff);
  - typography: Sans
