@@ -1,6 +1,6 @@
 # Artisanal Online Shop
 ## Features
-chatbot with voice recognition, online payment with Stripe
+user login, shopping cart (linked with session), talking chatbot (voice recognition ;-), online payment with Stripe
 ## Techno used
 NodeJs, Express-generator (hbs), Stripe(payment API), Bootstrap, MongoDB
 ## Installed Dependencies
