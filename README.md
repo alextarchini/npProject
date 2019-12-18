@@ -1,4 +1,27 @@
 # AlexStyle: Artisanal Online Shop
+- **Créer un repo public nommé "npProject"**
+- **Remplir le formulaire  ["Choix techno & projet"](https://forms.gle/CGVyBaTUZ36XUuEV7)**
+- **Créer un repo public nommé "npProject"**
+- **Remplir le formulaire  ["Choix techno & projet"](https://forms.gle/CGVyBaTUZ36XUuEV7)**
+- Définir son projet
+- Maquette(s) du site
+- Charte graphique (ne pas pousser l'exercice trop loin mais définissez les basiques : couleurs / typo / différents éléments récurrents (navBar, aside, footer...))
+- Data details (définir les éléments qui seront chargés de votre base de données (dynamique) et ceux qui seront fixes sur votre site (HTML purement statique)
+- Schéma de base de données 
+- Tout ce qui vous sera nécessaire pour commencer à développer votre projet sereinement
+**Tous ces éléments devront se trouver au plus vite dans le Readme du projet**
+
+### Technos
+**Back :** NodeJs ou PHP POO
+
+**Front :** Tout est permis
+
+### A retrouver dans votre projet
+- Un système de sessions : inscription, connexion / déconnexion / mot de passe perdu / différents privilèges
+- Interactions utilisateurs cohérentes avec le thème de site choisi (ex: commentaires, forum, chat, inscription et vente de tickets pour l'événement avec confirmation par mail, newsletter, cartes interactives, e-shop, chatbot.....)
+- L'utilisation d'**au moins** une API
+
+
 ## Features
 - secure user login (passport)
 - shopping cart (linked with session)
