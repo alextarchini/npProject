@@ -32,41 +32,73 @@ function botVoice(message) {
   const speech = new SpeechSynthesisUtterance();
   speech.text = "Sorry, I did not understand that.";
 
-  if (message.includes("how are you")) {
-    speech.text = "I am fine, thanks. How are you?";
+  if (message.includes("hello")) {
+    speech.text = "Hello back! How are you  doing? How can I help you today?";
+  }
+  if (message.includes("what")) {
+    speech.text = "Hmm do you want to check with google at www.google.com?";
   }
 
-  if (message.includes("thank you")) {
-    speech.text = "You are very welcome! How can I help you today?";
+  if (message.includes("How are you")) {
+    speech.text = "I am fine, thanks. How are you?";
+  }
+
+  if (message.includes("thank you")) {
+    speech.text = "You are very welcome! How can I help you today?";
   }
 
   if (message.includes("fine")) {
-    speech.text = "Nice to hear that. How can I assist you today?";
+    speech.text = "Nice to hear that. How can I assist you today?";
   }
 
   if (message.includes("weather")) {
-    speech.text = "Of course. Where are you currently?";
+    speech.text = "Of course. Where are you currently?";
   }
 
   if (message.includes("Brussels")) {
-    speech.text = "It is super freezing and pouring.";
+    speech.text = "It is super freezing and pouring.";
   }
 
   if (message.includes("Rocky")) {
-    speech.text = "Rocky is super handsome!";
+    speech.text = "Rocky is super handsome!";
   }
 
   if (message.includes("Alex")) {
-    speech.text = "Alex is amazing!";
+    speech.text = "Alex is amazing!";
   }
 
   if (message.includes("date")) {
-    speech.text = "Today is Wednesday, 4 December 2019";
+    speech.text = "Today is Wednesday, 4 December 2019";
   }
 
   if (message.includes("Mimi")) {
     speech.text =
-      "Mimi is absolutely gorgeous! I love her absolutely, always and forever. Don't you like her?!";
+      "Mimi is absolutely gorgeous! I love her absolutely, always and forever. Don't you like her?!";
+  }
+  if (message.includes("Lilia")) {
+    speech.text =
+      "Lilia is absolutely gorgeous! I love her absolutely, always and forever. Don't you like her?!";
+  }
+  if (message.includes("i l l y")) {
+    speech.text =
+      "Illy is absolutely gorgeous! I love her absolutely, always and forever. Don't you like her?!";
+  }
+  if (message.includes("Leah")) {
+    speech.text =
+      "Leah is absolutely gorgeous! I love her absolutely, always and forever. Don't you like her?!";
+  }
+  if (message.includes("l e i g h")) {
+    speech.text = "I think that Leigh is a very smart and intelligent engineer";
+  }
+  if (message.includes("events")) {
+    speech.text =
+      "For more information on SpaceArt's events please visit our EVENTS section";
+  }
+  if (message.includes("when")) {
+    speech.text = "Shall we check with uncle Google at www.google.com ?!";
+  }
+  if (message.includes("yes")) {
+    speech.text = "OK, shall we get a little help from www.google.com ?!";
   }
 
   speech.volume = 1;

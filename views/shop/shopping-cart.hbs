@@ -4,8 +4,8 @@
         <ul class="list-group">
             {{# each products }}
             <li class="list-group-item">
-                <span class="badge badge-light" style="background: #5cb85c">{{ this.qty }}</span>
-                <strong>{{ this.item.title }}</strong>
+                <span {{!-- class="badge badge-light" style="background: #5cb85c" --}}>{{ this.qty }} </span>
+                <span {{ this.item.title }} </span> <span>{{ this.item.description }}</span>
                 <span class="label label-success">${{ this.price }}</span>
                 <div class="btn-group">
                     <button class="btn btn-primary btn-xs dropdown-toggle" type="button" data-toggle="dropdown">Action
@@ -22,7 +22,7 @@
 </div>
 <div class="row">
     <div class="col-sm-6 col-md-6 col-md-offset-3 col-sm-offset-3">
-        <strong>Total: {{ totalPrice }}</strong>
+        <strong>Total: {{ totalPrice }} USD </strong>
     </div>
 </div>
 <hr>
